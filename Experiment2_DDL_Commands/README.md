@@ -104,16 +104,34 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
--- Paste Question 1 here
+```
+Create a table named Events with the following columns:
 
-```sql
--- Paste your SQL code below for Question 1
+EventID as INTEGER
+EventName as TEXT
+EventDate as DATE
+For example:
+
+Test	Result
+pragma table_info('Events');
+cid         name        type        notnull     dflt_value  pk
+----------  ----------  ----------  ----------  ----------  ----------
+0           EventID     INTEGER     0                       0
+1           EventName   TEXT        0                       0
+2           EventDate   DATE        0                       0
+```
+```
+CREATE TABLE Events(
+    EventID INTEGER,
+    EventName TEXT,
+    EventDate DATE
+);
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1332" height="300" alt="image" src="https://github.com/user-attachments/assets/92070306-780f-4782-ab1d-fb38b9dc5a5f" />
+
 
 **Question 2**
 ---
